@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	maven {
+		url 'https://github.com/Boukefalos/jlibredis/raw/mvn-repo/'
+	}
+	mavenCentral()
+}
+
+dependencies {
+    compile 'redis.clients:jedis:2.6.1'
+	//compile 'com.github.boukefalos:jlibredis:2.6.2'
+	
+	compile 'com.google.guava:guava:18.0'
+	compile 'com.googlecode.json-simple:json-simple:1.1.1'
+	compile 'commons-lang:commons-lang:2.6'
+	compile 'commons-codec:commons-codec:1.9'
+	compile 'commons-io:commons-io:2.4'
+	compile 'org.msgpack:msgpack:0.6.11'
+
+	testCompile 'junit:junit:4.+'
+}
+
+sourceSets {
+	main {
+		resources {
+			srcDir 'src/main/lua'
+		}
+	}
+}

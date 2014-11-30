@@ -1,0 +1,7 @@
+Id	Departure Time	Airline	Departure City	Arrival City
+1	03/23/2013 1:30 pm	Virgin America	Los Angeles	New York
+2	03/23/2013 1:45 pm	Virgin America	San Francisco	New York
+3	03/23/2013 1:45 pm	American Airlines	San Francisco	New York
+4	03/23/2013 1:50 pm	American Airlines	Los Angeles	Boston
+5	03/23/2013 2:45 pm	Southwest	San Francisco	New York
+6	03/23/2013 3:30 pm	Southwest	San Francisco	New York
