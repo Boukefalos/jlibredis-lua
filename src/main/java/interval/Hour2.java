@@ -2,7 +2,7 @@ package interval;
 
 
 public class Hour2 extends Hour {
-	public static final int HOURS = 2;
+    public static final int HOURS = 2;
 
-	public Hour2() {}
+    public Hour2() {}
 }
